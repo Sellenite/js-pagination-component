@@ -1,0 +1,39 @@
+#pagination {
+    font-size: 0;
+    display: table;
+    margin: 100px auto;
+}
+
+#pagination .page-item {
+    display: inline-block;
+    -webkit-user-select: none;
+    user-select: none;
+    font-size: 15px;
+    border: 1px solid #CCC;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+#pagination .page-item.notshow {
+    display: none;
+}
+
+#pagination .page-item.disabled {
+    color: #CCC;
+    cursor: default;
+}
+
+#pagination .page-item.active {
+    border-color: red;
+    color: red;
+}
+
+#pageInfo {
+    text-align: center;
+    font-size: 25px;
+    color: red;
+}
